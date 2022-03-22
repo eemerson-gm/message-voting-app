@@ -1,0 +1,18 @@
+
+div, html{
+    background-color: black;
+}
+
+table, button{
+    width: 100%;
+}
+
+div.App{
+    background-color: black;
+    margin: 64px 25%;
+}
+
+input.Message-Box{
+    width: 100%;
+    margin: 24px 0px;
+}
