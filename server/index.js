@@ -4,7 +4,7 @@ const Express = require("express");
 const Port = process.env.PORT || 3001;
 const App = Express();
 const { MongoClient, ServerApiVersion } = require('mongodb');
-const Uri = "mongodb+srv://admin:Fk6BHzMwoajEmTRC@cluster0.d8ivu.mongodb.net";
+const Uri = "";
 const Client = new MongoClient(Uri, { useNewUrlParser: true, useUnifiedTopology: true, serverApi: ServerApiVersion.v1 });
 
 App.listen(Port, () => {
