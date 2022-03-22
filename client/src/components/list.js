@@ -23,7 +23,7 @@ class List extends Component {
             <div>
                 {
                     this.state.messages.map((message) => {
-                        return(<Message message={message.text} likes={message.likes} />);
+                        return(<Message key={message._id} id={message._id} message={message.text} likes={message.likes} />);
                     })
                 }
             </div>
